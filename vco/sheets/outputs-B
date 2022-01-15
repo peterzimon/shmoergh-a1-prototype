@@ -1,0 +1,136 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 61722B0E
+P 5850 2600
+F 0 "J5" H 5822 2574 50  0000 R CNN
+F 1 "Saw Out" H 5822 2483 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x02_Vertical" H 5850 2600 50  0001 C CNN
+F 3 "~" H 5850 2600 50  0001 C CNN
+	1    5850 2600
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5500 2600 0    50   Input ~ 0
+OUT_SAW
+Wire Wire Line
+	5650 2600 5500 2600
+$Comp
+L power:GND #PWR019
+U 1 1 61724E3D
+P 5550 2800
+F 0 "#PWR019" H 5550 2550 50  0001 C CNN
+F 1 "GND" H 5555 2627 50  0000 C CNN
+F 2 "" H 5550 2800 50  0001 C CNN
+F 3 "" H 5550 2800 50  0001 C CNN
+	1    5550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2800 5550 2700
+Wire Wire Line
+	5550 2700 5650 2700
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 6189F06D
+P 5850 3500
+F 0 "J6" H 5822 3474 50  0000 R CNN
+F 1 "Square Out" H 5822 3383 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x02_Vertical" H 5850 3500 50  0001 C CNN
+F 3 "~" H 5850 3500 50  0001 C CNN
+	1    5850 3500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5500 3500 0    50   Input ~ 0
+OUT_SQR
+Wire Wire Line
+	5650 3500 5500 3500
+$Comp
+L power:GND #PWR0111
+U 1 1 6189F075
+P 5550 3700
+F 0 "#PWR0111" H 5550 3450 50  0001 C CNN
+F 1 "GND" H 5555 3527 50  0000 C CNN
+F 2 "" H 5550 3700 50  0001 C CNN
+F 3 "" H 5550 3700 50  0001 C CNN
+	1    5550 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3700 5550 3600
+Wire Wire Line
+	5550 3600 5650 3600
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 616E05B5
+P 5850 4400
+F 0 "J7" H 5822 4374 50  0000 R CNN
+F 1 "Noise Out" H 5822 4283 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x02_Vertical" H 5850 4400 50  0001 C CNN
+F 3 "~" H 5850 4400 50  0001 C CNN
+	1    5850 4400
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5500 4400 0    50   Input ~ 0
+OUT_NOISE
+Wire Wire Line
+	5650 4400 5500 4400
+$Comp
+L power:GND #PWR0122
+U 1 1 616E05BD
+P 5550 4600
+F 0 "#PWR0122" H 5550 4350 50  0001 C CNN
+F 1 "GND" H 5555 4427 50  0000 C CNN
+F 2 "" H 5550 4600 50  0001 C CNN
+F 3 "" H 5550 4600 50  0001 C CNN
+	1    5550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4600 5550 4500
+Wire Wire Line
+	5550 4500 5650 4500
+$Comp
+L Connector:Conn_01x02_Male J8
+U 1 1 6174930D
+P 5850 5350
+F 0 "J8" H 5822 5324 50  0000 R CNN
+F 1 "Tri Out" H 5822 5233 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x02_Vertical" H 5850 5350 50  0001 C CNN
+F 3 "~" H 5850 5350 50  0001 C CNN
+	1    5850 5350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5500 5350 0    50   Input ~ 0
+OUT_TRI
+Wire Wire Line
+	5650 5350 5500 5350
+$Comp
+L power:GND #PWR0123
+U 1 1 61749315
+P 5550 5550
+F 0 "#PWR0123" H 5550 5300 50  0001 C CNN
+F 1 "GND" H 5555 5377 50  0000 C CNN
+F 2 "" H 5550 5550 50  0001 C CNN
+F 3 "" H 5550 5550 50  0001 C CNN
+	1    5550 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5550 5550 5450
+Wire Wire Line
+	5550 5450 5650 5450
+$EndSCHEMATC

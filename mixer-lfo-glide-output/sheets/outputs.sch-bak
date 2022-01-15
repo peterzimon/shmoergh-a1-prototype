@@ -1,0 +1,702 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61791016
+P 2050 1800
+AR Path="/61741649/61791016" Ref="J?"  Part="1" 
+AR Path="/617416A0/61791016" Ref="J6"  Part="1" 
+F 0 "J6" H 2022 1774 50  0000 R CNN
+F 1 "Eurorack out (10Vpp)" H 2022 1683 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 2050 1800 50  0001 C CNN
+F 3 "~" H 2050 1800 50  0001 C CNN
+	1    2050 1800
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1650 1800 0    50   Input ~ 0
+EURO_OUT
+Wire Wire Line
+	1650 1800 1850 1800
+$Comp
+L power:GND #PWR?
+U 1 1 6179101E
+P 1750 1950
+AR Path="/61741649/6179101E" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/6179101E" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 1750 1700 50  0001 C CNN
+F 1 "GND" H 1755 1777 50  0000 C CNN
+F 2 "" H 1750 1950 50  0001 C CNN
+F 3 "" H 1750 1950 50  0001 C CNN
+	1    1750 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1900 1750 1900
+Wire Wire Line
+	1750 1900 1750 1950
+Text GLabel 1600 2500 0    50   Input ~ 0
+LINE_OUT
+Wire Wire Line
+	1600 2500 1800 2500
+Text GLabel 1650 3600 0    50   Input ~ 0
+PHONES_OUT
+Wire Wire Line
+	1650 3600 1750 3600
+$Comp
+L power:GND #PWR?
+U 1 1 61792A18
+P 1750 3850
+AR Path="/61741649/61792A18" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61792A18" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 1750 3600 50  0001 C CNN
+F 1 "GND" H 1755 3677 50  0000 C CNN
+F 2 "" H 1750 3850 50  0001 C CNN
+F 3 "" H 1750 3850 50  0001 C CNN
+	1    1750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3800 1750 3800
+Wire Wire Line
+	1750 3800 1750 3850
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 617932CC
+P 2050 3700
+F 0 "J7" H 2022 3724 50  0000 R CNN
+F 1 "Phones" H 2022 3633 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x03_Vertical" H 2050 3700 50  0001 C CNN
+F 3 "~" H 2050 3700 50  0001 C CNN
+	1    2050 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3700 1750 3700
+Wire Wire Line
+	1750 3700 1750 3600
+Connection ~ 1750 3600
+Wire Wire Line
+	1750 3600 1850 3600
+Text Notes 1200 1300 0    89   ~ 0
+Mixer outs
+$Comp
+L Connector:Conn_01x03_Male J8
+U 1 1 617F43DA
+P 2050 4500
+F 0 "J8" H 2022 4524 50  0000 R CNN
+F 1 "Grounds" H 2022 4433 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x03_Vertical" H 2050 4500 50  0001 C CNN
+F 3 "~" H 2050 4500 50  0001 C CNN
+	1    2050 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 617F6502
+P 1700 4700
+AR Path="/61741649/617F6502" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/617F6502" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 1700 4450 50  0001 C CNN
+F 1 "GND" H 1705 4527 50  0000 C CNN
+F 2 "" H 1700 4700 50  0001 C CNN
+F 3 "" H 1700 4700 50  0001 C CNN
+	1    1700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4600 1700 4600
+Wire Wire Line
+	1700 4600 1700 4700
+Wire Wire Line
+	1700 4600 1700 4500
+Wire Wire Line
+	1700 4400 1850 4400
+Connection ~ 1700 4600
+Wire Wire Line
+	1700 4500 1850 4500
+Connection ~ 1700 4500
+Wire Wire Line
+	1700 4500 1700 4400
+Text Notes 2400 3800 0    50   ~ 0
+Tip\nRing\nSleeve
+$Comp
+L power:GND #PWR?
+U 1 1 61791D1D
+P 1550 3100
+AR Path="/61741649/61791D1D" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61791D1D" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 1550 2850 50  0001 C CNN
+F 1 "GND" H 1555 2927 50  0000 C CNN
+F 2 "" H 1550 3100 50  0001 C CNN
+F 3 "" H 1550 3100 50  0001 C CNN
+	1    1550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 6194C815
+P 2000 2600
+F 0 "J5" H 1972 2624 50  0000 R CNN
+F 1 "Line out" H 1972 2533 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x03_Vertical" H 2000 2600 50  0001 C CNN
+F 3 "~" H 2000 2600 50  0001 C CNN
+	1    2000 2600
+	-1   0    0    -1  
+$EndComp
+Text Notes 2400 2700 0    50   ~ 0
+Tip\nRing\nSleeve
+$Comp
+L Device:R R1
+U 1 1 6194F284
+P 1550 2850
+F 0 "R1" H 1480 2804 50  0000 R CNN
+F 1 "1k" H 1480 2895 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 1480 2850 50  0001 C CNN
+F 3 "~" H 1550 2850 50  0001 C CNN
+	1    1550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 2600 1550 2700
+Wire Wire Line
+	1550 2600 1800 2600
+Wire Wire Line
+	1550 3000 1550 3050
+Wire Wire Line
+	1800 2700 1800 3050
+Wire Wire Line
+	1800 3050 1550 3050
+Connection ~ 1550 3050
+Wire Wire Line
+	1550 3050 1550 3100
+Text Notes 2950 1950 0    50   ~ 0
+Ring\nSleeve
+Text Notes 4500 1300 0    89   ~ 0
+LFO outs
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61A9C9D7
+P 5350 2800
+AR Path="/61741649/61A9C9D7" Ref="J?"  Part="1" 
+AR Path="/617416A0/61A9C9D7" Ref="J10"  Part="1" 
+F 0 "J10" H 5322 2774 50  0000 R CNN
+F 1 "Tri From VCA" H 5322 2683 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 5350 2800 50  0001 C CNN
+F 3 "~" H 5350 2800 50  0001 C CNN
+	1    5350 2800
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4950 2800 0    50   Input ~ 0
+LFO_TRI_OUT
+Wire Wire Line
+	4950 2800 5150 2800
+$Comp
+L power:GND #PWR?
+U 1 1 61A9C9DF
+P 5050 2950
+AR Path="/61741649/61A9C9DF" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61A9C9DF" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 5050 2700 50  0001 C CNN
+F 1 "GND" H 5055 2777 50  0000 C CNN
+F 2 "" H 5050 2950 50  0001 C CNN
+F 3 "" H 5050 2950 50  0001 C CNN
+	1    5050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2900 5050 2900
+Wire Wire Line
+	5050 2900 5050 2950
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61A9F60D
+P 7450 1800
+AR Path="/61741649/61A9F60D" Ref="J?"  Part="1" 
+AR Path="/617416A0/61A9F60D" Ref="J11"  Part="1" 
+F 0 "J11" H 7422 1774 50  0000 R CNN
+F 1 "LFO Square (5Vpp)" H 7422 1683 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 7450 1800 50  0001 C CNN
+F 3 "~" H 7450 1800 50  0001 C CNN
+	1    7450 1800
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7050 1800 0    50   Input ~ 0
+LFO_SQR_OUT
+Wire Wire Line
+	7050 1800 7250 1800
+$Comp
+L power:GND #PWR?
+U 1 1 61A9F615
+P 7150 1950
+AR Path="/61741649/61A9F615" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61A9F615" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 7150 1700 50  0001 C CNN
+F 1 "GND" H 7155 1777 50  0000 C CNN
+F 2 "" H 7150 1950 50  0001 C CNN
+F 3 "" H 7150 1950 50  0001 C CNN
+	1    7150 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1900 7150 1900
+Wire Wire Line
+	7150 1900 7150 1950
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B00BE3
+P 5350 3600
+AR Path="/61741649/61B00BE3" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B00BE3" Ref="J12"  Part="1" 
+F 0 "J12" H 5322 3574 50  0000 R CNN
+F 1 "LFO Triangle (VCA)" H 5322 3483 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 5350 3600 50  0001 C CNN
+F 3 "~" H 5350 3600 50  0001 C CNN
+	1    5350 3600
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4950 3600 0    50   Input ~ 0
+LFO_TRI_OUT
+Wire Wire Line
+	4950 3600 5150 3600
+$Comp
+L power:GND #PWR?
+U 1 1 61B00BEB
+P 5050 3750
+AR Path="/61741649/61B00BEB" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B00BEB" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 5050 3500 50  0001 C CNN
+F 1 "GND" H 5055 3577 50  0000 C CNN
+F 2 "" H 5050 3750 50  0001 C CNN
+F 3 "" H 5050 3750 50  0001 C CNN
+	1    5050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3700 5050 3700
+Wire Wire Line
+	5050 3700 5050 3750
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B01CA6
+P 5350 4250
+AR Path="/61741649/61B01CA6" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B01CA6" Ref="J13"  Part="1" 
+F 0 "J13" H 5322 4224 50  0000 R CNN
+F 1 "LFO Triangle (VCA)" H 5322 4133 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 5350 4250 50  0001 C CNN
+F 3 "~" H 5350 4250 50  0001 C CNN
+	1    5350 4250
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4950 4250 0    50   Input ~ 0
+LFO_TRI_OUT
+Wire Wire Line
+	4950 4250 5150 4250
+$Comp
+L power:GND #PWR?
+U 1 1 61B01CAE
+P 5050 4400
+AR Path="/61741649/61B01CAE" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B01CAE" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 5050 4150 50  0001 C CNN
+F 1 "GND" H 5055 4227 50  0000 C CNN
+F 2 "" H 5050 4400 50  0001 C CNN
+F 3 "" H 5050 4400 50  0001 C CNN
+	1    5050 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4350 5050 4350
+Wire Wire Line
+	5050 4350 5050 4400
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B0325B
+P 5350 4900
+AR Path="/61741649/61B0325B" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B0325B" Ref="J14"  Part="1" 
+F 0 "J14" H 5322 4874 50  0000 R CNN
+F 1 "LFO Triangle (VCA)" H 5322 4783 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 5350 4900 50  0001 C CNN
+F 3 "~" H 5350 4900 50  0001 C CNN
+	1    5350 4900
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4950 4900 0    50   Input ~ 0
+LFO_TRI_OUT
+Wire Wire Line
+	4950 4900 5150 4900
+$Comp
+L power:GND #PWR?
+U 1 1 61B03263
+P 5050 5050
+AR Path="/61741649/61B03263" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B03263" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 5050 4800 50  0001 C CNN
+F 1 "GND" H 5055 4877 50  0000 C CNN
+F 2 "" H 5050 5050 50  0001 C CNN
+F 3 "" H 5050 5050 50  0001 C CNN
+	1    5050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5000 5050 5000
+Wire Wire Line
+	5050 5000 5050 5050
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B04921
+P 5300 1800
+AR Path="/61741649/61B04921" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B04921" Ref="J15"  Part="1" 
+F 0 "J15" H 5272 1774 50  0000 R CNN
+F 1 "LFO Triangle (5Vpp)" H 5272 1683 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 5300 1800 50  0001 C CNN
+F 3 "~" H 5300 1800 50  0001 C CNN
+	1    5300 1800
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4900 1800 0    50   Input ~ 0
+TRI_TO_VCA
+Wire Wire Line
+	4900 1800 5100 1800
+$Comp
+L power:GND #PWR?
+U 1 1 61B04929
+P 5000 1950
+AR Path="/61741649/61B04929" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B04929" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 5000 1700 50  0001 C CNN
+F 1 "GND" H 5005 1777 50  0000 C CNN
+F 2 "" H 5000 1950 50  0001 C CNN
+F 3 "" H 5000 1950 50  0001 C CNN
+	1    5000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1900 5000 1900
+Wire Wire Line
+	5000 1900 5000 1950
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B17000
+P 7450 2450
+AR Path="/61741649/61B17000" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B17000" Ref="J16"  Part="1" 
+F 0 "J16" H 7422 2424 50  0000 R CNN
+F 1 "LFO Square (5Vpp)" H 7422 2333 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 7450 2450 50  0001 C CNN
+F 3 "~" H 7450 2450 50  0001 C CNN
+	1    7450 2450
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7050 2450 0    50   Input ~ 0
+LFO_SQR_OUT
+Wire Wire Line
+	7050 2450 7250 2450
+$Comp
+L power:GND #PWR?
+U 1 1 61B17008
+P 7150 2600
+AR Path="/61741649/61B17008" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B17008" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 7150 2350 50  0001 C CNN
+F 1 "GND" H 7155 2427 50  0000 C CNN
+F 2 "" H 7150 2600 50  0001 C CNN
+F 3 "" H 7150 2600 50  0001 C CNN
+	1    7150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2550 7150 2550
+Wire Wire Line
+	7150 2550 7150 2600
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B17EBD
+P 7450 3100
+AR Path="/61741649/61B17EBD" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B17EBD" Ref="J17"  Part="1" 
+F 0 "J17" H 7422 3074 50  0000 R CNN
+F 1 "LFO Square (5Vpp)" H 7422 2983 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 7450 3100 50  0001 C CNN
+F 3 "~" H 7450 3100 50  0001 C CNN
+	1    7450 3100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7050 3100 0    50   Input ~ 0
+LFO_SQR_OUT
+Wire Wire Line
+	7050 3100 7250 3100
+$Comp
+L power:GND #PWR?
+U 1 1 61B17EC5
+P 7150 3250
+AR Path="/61741649/61B17EC5" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B17EC5" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 7150 3000 50  0001 C CNN
+F 1 "GND" H 7155 3077 50  0000 C CNN
+F 2 "" H 7150 3250 50  0001 C CNN
+F 3 "" H 7150 3250 50  0001 C CNN
+	1    7150 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3200 7150 3200
+Wire Wire Line
+	7150 3200 7150 3250
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B1A4CD
+P 7450 3750
+AR Path="/61741649/61B1A4CD" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B1A4CD" Ref="J18"  Part="1" 
+F 0 "J18" H 7422 3724 50  0000 R CNN
+F 1 "LFO Square (5Vpp)" H 7422 3633 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 7450 3750 50  0001 C CNN
+F 3 "~" H 7450 3750 50  0001 C CNN
+	1    7450 3750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7050 3750 0    50   Input ~ 0
+LFO_SQR_OUT
+Wire Wire Line
+	7050 3750 7250 3750
+$Comp
+L power:GND #PWR?
+U 1 1 61B1A4D5
+P 7150 3900
+AR Path="/61741649/61B1A4D5" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B1A4D5" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 7150 3650 50  0001 C CNN
+F 1 "GND" H 7155 3727 50  0000 C CNN
+F 2 "" H 7150 3900 50  0001 C CNN
+F 3 "" H 7150 3900 50  0001 C CNN
+	1    7150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3850 7150 3850
+Wire Wire Line
+	7150 3850 7150 3900
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B1D5E6
+P 7450 4400
+AR Path="/61741649/61B1D5E6" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B1D5E6" Ref="J19"  Part="1" 
+F 0 "J19" H 7422 4374 50  0000 R CNN
+F 1 "LFO Square (5Vpp)" H 7422 4283 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 7450 4400 50  0001 C CNN
+F 3 "~" H 7450 4400 50  0001 C CNN
+	1    7450 4400
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7050 4400 0    50   Input ~ 0
+LFO_SQR_OUT
+Wire Wire Line
+	7050 4400 7250 4400
+$Comp
+L power:GND #PWR?
+U 1 1 61B1D5EE
+P 7150 4550
+AR Path="/61741649/61B1D5EE" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B1D5EE" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 7150 4300 50  0001 C CNN
+F 1 "GND" H 7155 4377 50  0000 C CNN
+F 2 "" H 7150 4550 50  0001 C CNN
+F 3 "" H 7150 4550 50  0001 C CNN
+	1    7150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4500 7150 4500
+Wire Wire Line
+	7150 4500 7150 4550
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B3AB25
+P 5350 5550
+AR Path="/61741649/61B3AB25" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B3AB25" Ref="J20"  Part="1" 
+F 0 "J20" H 5322 5524 50  0000 R CNN
+F 1 "LFO Triangle (VCA)" H 5322 5433 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 5350 5550 50  0001 C CNN
+F 3 "~" H 5350 5550 50  0001 C CNN
+	1    5350 5550
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4950 5550 0    50   Input ~ 0
+LFO_TRI_OUT
+Wire Wire Line
+	4950 5550 5150 5550
+$Comp
+L power:GND #PWR?
+U 1 1 61B3AB2D
+P 5050 5700
+AR Path="/61741649/61B3AB2D" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B3AB2D" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 5050 5450 50  0001 C CNN
+F 1 "GND" H 5055 5527 50  0000 C CNN
+F 2 "" H 5050 5700 50  0001 C CNN
+F 3 "" H 5050 5700 50  0001 C CNN
+	1    5050 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5650 5050 5650
+Wire Wire Line
+	5050 5650 5050 5700
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B3ED1F
+P 7450 5050
+AR Path="/61741649/61B3ED1F" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B3ED1F" Ref="J21"  Part="1" 
+F 0 "J21" H 7422 5024 50  0000 R CNN
+F 1 "LFO Square (5Vpp)" H 7422 4933 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 7450 5050 50  0001 C CNN
+F 3 "~" H 7450 5050 50  0001 C CNN
+	1    7450 5050
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7050 5050 0    50   Input ~ 0
+LFO_SQR_OUT
+Wire Wire Line
+	7050 5050 7250 5050
+$Comp
+L power:GND #PWR?
+U 1 1 61B3ED27
+P 7150 5200
+AR Path="/61741649/61B3ED27" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B3ED27" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 7150 4950 50  0001 C CNN
+F 1 "GND" H 7155 5027 50  0000 C CNN
+F 2 "" H 7150 5200 50  0001 C CNN
+F 3 "" H 7150 5200 50  0001 C CNN
+	1    7150 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5150 7150 5150
+Wire Wire Line
+	7150 5150 7150 5200
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61B71DE6
+P 9800 1800
+AR Path="/61741649/61B71DE6" Ref="J?"  Part="1" 
+AR Path="/617416A0/61B71DE6" Ref="J23"  Part="1" 
+F 0 "J23" H 9772 1774 50  0000 R CNN
+F 1 "Glide Out" H 9772 1683 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 9800 1800 50  0001 C CNN
+F 3 "~" H 9800 1800 50  0001 C CNN
+	1    9800 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61B71DEC
+P 9500 1950
+AR Path="/61741700/61B71DEC" Ref="#PWR?"  Part="1" 
+AR Path="/61741649/61B71DEC" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/61B71DEC" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 9500 1700 50  0001 C CNN
+F 1 "GND" H 9505 1777 50  0000 C CNN
+F 2 "" H 9500 1950 50  0001 C CNN
+F 3 "" H 9500 1950 50  0001 C CNN
+	1    9500 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1900 9500 1900
+Wire Wire Line
+	9500 1900 9500 1950
+Text GLabel 9450 1800 0    50   Input ~ 0
+PITCH_OUT
+Wire Wire Line
+	9600 1800 9450 1800
+Text Notes 9000 1350 0    89   ~ 0
+Glide out
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 6189FFBD
+P 2100 5400
+AR Path="/61741649/6189FFBD" Ref="J?"  Part="1" 
+AR Path="/617416A0/6189FFBD" Ref="J24"  Part="1" 
+F 0 "J24" H 2072 5374 50  0000 R CNN
+F 1 "10Vpp to VCA" H 2072 5283 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 2100 5400 50  0001 C CNN
+F 3 "~" H 2100 5400 50  0001 C CNN
+	1    2100 5400
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1750 5400 0    50   Input ~ 0
+TO_VOICE_VCA
+$Comp
+L power:GND #PWR?
+U 1 1 618A1160
+P 1800 5600
+AR Path="/61741649/618A1160" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/618A1160" Ref="#PWR056"  Part="1" 
+F 0 "#PWR056" H 1800 5350 50  0001 C CNN
+F 1 "GND" H 1805 5427 50  0000 C CNN
+F 2 "" H 1800 5600 50  0001 C CNN
+F 3 "" H 1800 5600 50  0001 C CNN
+	1    1800 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5500 1800 5500
+Wire Wire Line
+	1800 5500 1800 5600
+Wire Wire Line
+	1750 5400 1900 5400
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 618BCDE0
+P 2100 6100
+AR Path="/61741649/618BCDE0" Ref="J?"  Part="1" 
+AR Path="/617416A0/618BCDE0" Ref="J25"  Part="1" 
+F 0 "J25" H 2072 6074 50  0000 R CNN
+F 1 "From 10Vpp VCA" H 2072 5983 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:JT_A25_01x02_Vertical" H 2100 6100 50  0001 C CNN
+F 3 "~" H 2100 6100 50  0001 C CNN
+	1    2100 6100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1750 6100 0    50   Input ~ 0
+FROM_VOICE_VCA
+$Comp
+L power:GND #PWR?
+U 1 1 618BCDE7
+P 1800 6300
+AR Path="/61741649/618BCDE7" Ref="#PWR?"  Part="1" 
+AR Path="/617416A0/618BCDE7" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 1800 6050 50  0001 C CNN
+F 1 "GND" H 1805 6127 50  0000 C CNN
+F 2 "" H 1800 6300 50  0001 C CNN
+F 3 "" H 1800 6300 50  0001 C CNN
+	1    1800 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6200 1800 6200
+Wire Wire Line
+	1800 6200 1800 6300
+Wire Wire Line
+	1750 6100 1900 6100
+$EndSCHEMATC

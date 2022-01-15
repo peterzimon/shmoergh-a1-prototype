@@ -1,0 +1,211 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+12V #PWR?
+U 1 1 616C6EE6
+P 5750 4000
+AR Path="/616C6EE6" Ref="#PWR?"  Part="1" 
+AR Path="/616C24EA/616C6EE6" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 5750 3850 50  0001 C CNN
+F 1 "+12V" H 5765 4173 50  0000 C CNN
+F 2 "" H 5750 4000 50  0001 C CNN
+F 3 "" H 5750 4000 50  0001 C CNN
+	1    5750 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 616C6EEC
+P 5750 4200
+AR Path="/616C6EEC" Ref="#PWR?"  Part="1" 
+AR Path="/616C24EA/616C6EEC" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 5750 3950 50  0001 C CNN
+F 1 "GND" H 5750 4300 50  0000 C CNN
+F 2 "" H 5750 4200 50  0001 C CNN
+F 3 "" H 5750 4200 50  0001 C CNN
+	1    5750 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 616C6EF2
+P 5250 4200
+AR Path="/616C6EF2" Ref="J?"  Part="1" 
+AR Path="/616C24EA/616C6EF2" Ref="J2"  Part="1" 
+F 0 "J2" H 5222 4224 50  0000 R CNN
+F 1 "Power" H 5222 4133 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x03_Vertical" H 5250 4200 50  0001 C CNN
+F 3 "~" H 5250 4200 50  0001 C CNN
+	1    5250 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4200 5750 4200
+$Comp
+L power:-12V #PWR?
+U 1 1 616C6EF9
+P 5750 4400
+AR Path="/616C6EF9" Ref="#PWR?"  Part="1" 
+AR Path="/616C24EA/616C6EF9" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 5750 4500 50  0001 C CNN
+F 1 "-12V" H 5765 4573 50  0000 C CNN
+F 2 "" H 5750 4400 50  0001 C CNN
+F 3 "" H 5750 4400 50  0001 C CNN
+	1    5750 4400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5750 4400 5550 4400
+Wire Wire Line
+	5550 4400 5550 4300
+Wire Wire Line
+	5550 4300 5450 4300
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 616C6F02
+P 5250 4000
+AR Path="/616C6F02" Ref="#FLG?"  Part="1" 
+AR Path="/616C24EA/616C6F02" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 5250 4075 50  0001 C CNN
+F 1 "PWR_FLAG" H 5250 4173 50  0000 C CNN
+F 2 "" H 5250 4000 50  0001 C CNN
+F 3 "~" H 5250 4000 50  0001 C CNN
+	1    5250 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 616C6F08
+P 6000 4200
+AR Path="/616C6F08" Ref="#FLG?"  Part="1" 
+AR Path="/616C24EA/616C6F08" Ref="#FLG03"  Part="1" 
+F 0 "#FLG03" H 6000 4275 50  0001 C CNN
+F 1 "PWR_FLAG" H 6100 4150 50  0000 C CNN
+F 2 "" H 6000 4200 50  0001 C CNN
+F 3 "~" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6000 4200 5750 4200
+Connection ~ 5750 4200
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 616C6F10
+P 5250 3150
+AR Path="/616C6F10" Ref="J?"  Part="1" 
+AR Path="/616C24EA/616C6F10" Ref="J1"  Part="1" 
+F 0 "J1" H 5100 3200 50  0000 C CNN
+F 1 "In + 5VPower" H 4900 3100 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x03_Vertical" H 5250 3150 50  0001 C CNN
+F 3 "~" H 5250 3150 50  0001 C CNN
+	1    5250 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 3050 2    50   Input ~ 0
+RAW_SAW
+Wire Wire Line
+	5700 3050 5450 3050
+$Comp
+L power:+5V #PWR?
+U 1 1 616C6F18
+P 6300 3100
+AR Path="/616C6F18" Ref="#PWR?"  Part="1" 
+AR Path="/616C24EA/616C6F18" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 6300 2950 50  0001 C CNN
+F 1 "+5V" H 6315 3273 50  0000 C CNN
+F 2 "" H 6300 3100 50  0001 C CNN
+F 3 "" H 6300 3100 50  0001 C CNN
+	1    6300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3100 6300 3150
+Wire Wire Line
+	6300 3150 5450 3150
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 616C6F20
+P 6600 3150
+AR Path="/616C6F20" Ref="#FLG?"  Part="1" 
+AR Path="/616C24EA/616C6F20" Ref="#FLG05"  Part="1" 
+F 0 "#FLG05" H 6600 3225 50  0001 C CNN
+F 1 "PWR_FLAG" H 6600 3323 50  0000 C CNN
+F 2 "" H 6600 3150 50  0001 C CNN
+F 3 "~" H 6600 3150 50  0001 C CNN
+	1    6600 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3150 6300 3150
+Connection ~ 6300 3150
+$Comp
+L power:-5V #PWR?
+U 1 1 616C6F28
+P 5750 3250
+AR Path="/616C6F28" Ref="#PWR?"  Part="1" 
+AR Path="/616C24EA/616C6F28" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 5750 3350 50  0001 C CNN
+F 1 "-5V" H 5765 3423 50  0000 C CNN
+F 2 "" H 5750 3250 50  0001 C CNN
+F 3 "" H 5750 3250 50  0001 C CNN
+	1    5750 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5750 3250 5450 3250
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 616C6F2F
+P 6100 3250
+AR Path="/616C6F2F" Ref="#FLG?"  Part="1" 
+AR Path="/616C24EA/616C6F2F" Ref="#FLG04"  Part="1" 
+F 0 "#FLG04" H 6100 3325 50  0001 C CNN
+F 1 "PWR_FLAG" H 6100 3423 50  0000 C CNN
+F 2 "" H 6100 3250 50  0001 C CNN
+F 3 "~" H 6100 3250 50  0001 C CNN
+	1    6100 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3250 5750 3250
+Connection ~ 5750 3250
+Wire Wire Line
+	5250 4000 5550 4000
+Wire Wire Line
+	5550 4000 5550 4100
+Wire Wire Line
+	5550 4100 5450 4100
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 616C6F3A
+P 5250 4400
+AR Path="/616C6F3A" Ref="#FLG?"  Part="1" 
+AR Path="/616C24EA/616C6F3A" Ref="#FLG02"  Part="1" 
+F 0 "#FLG02" H 5250 4475 50  0001 C CNN
+F 1 "PWR_FLAG" H 5250 4573 50  0000 C CNN
+F 2 "" H 5250 4400 50  0001 C CNN
+F 3 "~" H 5250 4400 50  0001 C CNN
+	1    5250 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 4400 5250 4400
+Connection ~ 5550 4400
+Wire Wire Line
+	5750 4000 5550 4000
+Connection ~ 5550 4000
+$EndSCHEMATC

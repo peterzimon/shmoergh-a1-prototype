@@ -1,0 +1,992 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 61A88B8F
+P 2200 2350
+AR Path="/619EC50E/61A88B8F" Ref="Q?"  Part="1" 
+AR Path="/61A4DD40/61A88B8F" Ref="Q?"  Part="1" 
+AR Path="/619897D7/61A88B8F" Ref="Q?"  Part="1" 
+AR Path="/61A62B74/61A88B8F" Ref="Q4"  Part="1" 
+F 0 "Q4" H 2391 2396 50  0000 L CNN
+F 1 "BC547" H 2391 2305 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:TO-92_Inline" H 2400 2275 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 2200 2350 50  0001 L CNN
+	1    2200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 61A88B95
+P 3400 2350
+AR Path="/619EC50E/61A88B95" Ref="Q?"  Part="1" 
+AR Path="/61A4DD40/61A88B95" Ref="Q?"  Part="1" 
+AR Path="/619897D7/61A88B95" Ref="Q?"  Part="1" 
+AR Path="/61A62B74/61A88B95" Ref="Q5"  Part="1" 
+F 0 "Q5" H 3591 2396 50  0000 L CNN
+F 1 "BC547" H 3591 2305 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:TO-92_Inline" H 3600 2275 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 3400 2350 50  0001 L CNN
+	1    3400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 61A88B9B
+P 4850 2350
+AR Path="/619EC50E/61A88B9B" Ref="Q?"  Part="1" 
+AR Path="/61A4DD40/61A88B9B" Ref="Q?"  Part="1" 
+AR Path="/619897D7/61A88B9B" Ref="Q?"  Part="1" 
+AR Path="/61A62B74/61A88B9B" Ref="Q6"  Part="1" 
+F 0 "Q6" H 5041 2396 50  0000 L CNN
+F 1 "BC547" H 5041 2305 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:TO-92_Inline" H 5050 2275 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 4850 2350 50  0001 L CNN
+	1    4850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Timer:NE555P U?
+U 1 1 61A88BA1
+P 2600 5200
+AR Path="/619EC50E/61A88BA1" Ref="U?"  Part="1" 
+AR Path="/61A4DD40/61A88BA1" Ref="U?"  Part="1" 
+AR Path="/619897D7/61A88BA1" Ref="U?"  Part="1" 
+AR Path="/61A62B74/61A88BA1" Ref="U3"  Part="1" 
+F 0 "U3" H 2600 5250 50  0000 C CNN
+F 1 "7555" H 2600 5150 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 3250 4800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 3450 4800 50  0001 C CNN
+	1    2600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 1 1 61A88BA7
+P 7800 4500
+AR Path="/619EC50E/61A88BA7" Ref="U?"  Part="1" 
+AR Path="/61A4DD40/61A88BA7" Ref="U?"  Part="1" 
+AR Path="/619897D7/61A88BA7" Ref="U?"  Part="1" 
+AR Path="/61A62B74/61A88BA7" Ref="U4"  Part="1" 
+F 0 "U4" H 7800 4133 50  0000 C CNN
+F 1 "TL072" H 7800 4224 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 7800 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7800 4500 50  0001 C CNN
+	1    7800 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 3 1 61A88BAD
+P 7450 1750
+AR Path="/619EC50E/61A88BAD" Ref="U?"  Part="3" 
+AR Path="/61A4DD40/61A88BAD" Ref="U?"  Part="3" 
+AR Path="/619897D7/61A88BAD" Ref="U?"  Part="3" 
+AR Path="/61A62B74/61A88BAD" Ref="U4"  Part="3" 
+F 0 "U4" H 7408 1796 50  0000 L CNN
+F 1 "TL072" H 7408 1705 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 7450 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7450 1750 50  0001 C CNN
+	3    7450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61A88BB3
+P 1750 2350
+AR Path="/619EC50E/61A88BB3" Ref="R?"  Part="1" 
+AR Path="/61A4DD40/61A88BB3" Ref="R?"  Part="1" 
+AR Path="/619897D7/61A88BB3" Ref="R?"  Part="1" 
+AR Path="/61A62B74/61A88BB3" Ref="R11"  Part="1" 
+F 0 "R11" V 1543 2350 50  0000 C CNN
+F 1 "10k" V 1634 2350 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 1680 2350 50  0001 C CNN
+F 3 "~" H 1750 2350 50  0001 C CNN
+	1    1750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 2350 1950 2350
+$Comp
+L Device:D D?
+U 1 1 61A88BBA
+P 1950 2600
+AR Path="/619EC50E/61A88BBA" Ref="D?"  Part="1" 
+AR Path="/61A4DD40/61A88BBA" Ref="D?"  Part="1" 
+AR Path="/619897D7/61A88BBA" Ref="D?"  Part="1" 
+AR Path="/61A62B74/61A88BBA" Ref="D6"  Part="1" 
+F 0 "D6" V 1900 2200 50  0000 L CNN
+F 1 "1N4148" V 2000 2200 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 1950 2600 50  0001 C CNN
+F 3 "~" H 1950 2600 50  0001 C CNN
+	1    1950 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 2450 1950 2350
+Connection ~ 1950 2350
+Wire Wire Line
+	1950 2350 2000 2350
+$Comp
+L Device:R R?
+U 1 1 61A88BC3
+P 2950 2350
+AR Path="/619EC50E/61A88BC3" Ref="R?"  Part="1" 
+AR Path="/61A4DD40/61A88BC3" Ref="R?"  Part="1" 
+AR Path="/619897D7/61A88BC3" Ref="R?"  Part="1" 
+AR Path="/61A62B74/61A88BC3" Ref="R13"  Part="1" 
+F 0 "R13" V 2743 2350 50  0000 C CNN
+F 1 "22k" V 2834 2350 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 2880 2350 50  0001 C CNN
+F 3 "~" H 2950 2350 50  0001 C CNN
+	1    2950 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 61A88BC9
+P 2300 1250
+AR Path="/619EC50E/61A88BC9" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88BC9" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88BC9" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88BC9" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 2300 1100 50  0001 C CNN
+F 1 "+12V" H 2315 1423 50  0000 C CNN
+F 2 "" H 2300 1250 50  0001 C CNN
+F 3 "" H 2300 1250 50  0001 C CNN
+	1    2300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61A88BCF
+P 2300 1600
+AR Path="/619EC50E/61A88BCF" Ref="R?"  Part="1" 
+AR Path="/61A4DD40/61A88BCF" Ref="R?"  Part="1" 
+AR Path="/619897D7/61A88BCF" Ref="R?"  Part="1" 
+AR Path="/61A62B74/61A88BCF" Ref="R12"  Part="1" 
+F 0 "R12" H 2370 1646 50  0000 L CNN
+F 1 "4.7k" H 2370 1555 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 2230 1600 50  0001 C CNN
+F 3 "~" H 2300 1600 50  0001 C CNN
+	1    2300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1450 2300 1350
+Wire Wire Line
+	2300 2150 2300 2100
+Wire Wire Line
+	2300 2100 2700 2100
+Wire Wire Line
+	2700 2100 2700 2350
+Wire Wire Line
+	2700 2350 2800 2350
+Connection ~ 2300 2100
+Wire Wire Line
+	3100 2350 3200 2350
+$Comp
+L Device:D D?
+U 1 1 61A88BDC
+P 4150 2600
+AR Path="/619EC50E/61A88BDC" Ref="D?"  Part="1" 
+AR Path="/61A4DD40/61A88BDC" Ref="D?"  Part="1" 
+AR Path="/619897D7/61A88BDC" Ref="D?"  Part="1" 
+AR Path="/61A62B74/61A88BDC" Ref="D7"  Part="1" 
+F 0 "D7" V 4100 2200 50  0000 L CNN
+F 1 "1N4148" V 4200 2200 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 4150 2600 50  0001 C CNN
+F 3 "~" H 4150 2600 50  0001 C CNN
+	1    4150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61A88BE2
+P 3500 1600
+AR Path="/619EC50E/61A88BE2" Ref="R?"  Part="1" 
+AR Path="/61A4DD40/61A88BE2" Ref="R?"  Part="1" 
+AR Path="/619897D7/61A88BE2" Ref="R?"  Part="1" 
+AR Path="/61A62B74/61A88BE2" Ref="R14"  Part="1" 
+F 0 "R14" H 3250 1650 50  0000 L CNN
+F 1 "4.7k" H 3250 1550 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 3430 1600 50  0001 C CNN
+F 3 "~" H 3500 1600 50  0001 C CNN
+	1    3500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2150 3500 2100
+$Comp
+L Device:C C?
+U 1 1 61A88BE9
+P 3850 2100
+AR Path="/619EC50E/61A88BE9" Ref="C?"  Part="1" 
+AR Path="/61A4DD40/61A88BE9" Ref="C?"  Part="1" 
+AR Path="/619897D7/61A88BE9" Ref="C?"  Part="1" 
+AR Path="/61A62B74/61A88BE9" Ref="C9"  Part="1" 
+F 0 "C9" V 3950 2250 50  0000 C CNN
+F 1 "10n" V 4050 2250 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3888 1950 50  0001 C CNN
+F 3 "~" H 3850 2100 50  0001 C CNN
+	1    3850 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 2100 3700 2100
+Connection ~ 3500 2100
+$Comp
+L Device:R R?
+U 1 1 61A88BF1
+P 4400 2350
+AR Path="/619EC50E/61A88BF1" Ref="R?"  Part="1" 
+AR Path="/61A4DD40/61A88BF1" Ref="R?"  Part="1" 
+AR Path="/619897D7/61A88BF1" Ref="R?"  Part="1" 
+AR Path="/61A62B74/61A88BF1" Ref="R16"  Part="1" 
+F 0 "R16" V 4193 2350 50  0000 C CNN
+F 1 "10k" V 4284 2350 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 4330 2350 50  0001 C CNN
+F 3 "~" H 4400 2350 50  0001 C CNN
+	1    4400 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 2350 4150 2350
+Wire Wire Line
+	4150 2350 4150 2100
+Wire Wire Line
+	4150 2100 4000 2100
+$Comp
+L power:GND #PWR?
+U 1 1 61A88BFA
+P 4950 3000
+AR Path="/619EC50E/61A88BFA" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88BFA" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88BFA" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88BFA" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 4950 2750 50  0001 C CNN
+F 1 "GND" H 4955 2827 50  0000 C CNN
+F 2 "" H 4950 3000 50  0001 C CNN
+F 3 "" H 4950 3000 50  0001 C CNN
+	1    4950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2550 4950 2900
+Wire Wire Line
+	1950 2750 1950 2900
+Wire Wire Line
+	1950 2900 2300 2900
+Connection ~ 4950 2900
+Wire Wire Line
+	4950 2900 4950 3000
+Wire Wire Line
+	3500 2550 3500 2900
+Connection ~ 3500 2900
+Wire Wire Line
+	3500 1450 3500 1350
+Wire Wire Line
+	3500 1350 2300 1350
+Connection ~ 2300 1350
+Wire Wire Line
+	2300 1350 2300 1250
+$Comp
+L Device:R R?
+U 1 1 61A88C0B
+P 4950 1600
+AR Path="/619EC50E/61A88C0B" Ref="R?"  Part="1" 
+AR Path="/61A4DD40/61A88C0B" Ref="R?"  Part="1" 
+AR Path="/619897D7/61A88C0B" Ref="R?"  Part="1" 
+AR Path="/61A62B74/61A88C0B" Ref="R17"  Part="1" 
+F 0 "R17" H 4700 1650 50  0000 L CNN
+F 1 "4.7k" H 4700 1550 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 4880 1600 50  0001 C CNN
+F 3 "~" H 4950 1600 50  0001 C CNN
+	1    4950 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1450 4950 1350
+Wire Wire Line
+	4950 1350 3500 1350
+Connection ~ 3500 1350
+Wire Wire Line
+	2300 1750 2300 2100
+Wire Wire Line
+	3500 1750 3500 1900
+Wire Wire Line
+	4950 1750 4950 2050
+Wire Wire Line
+	1400 2350 1600 2350
+Wire Wire Line
+	5150 1900 3500 1900
+Connection ~ 3500 1900
+Wire Wire Line
+	3500 1900 3500 2100
+$Comp
+L power:GND #PWR?
+U 1 1 61A88C1B
+P 2600 5600
+AR Path="/619EC50E/61A88C1B" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88C1B" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88C1B" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88C1B" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 2600 5350 50  0001 C CNN
+F 1 "GND" H 2605 5427 50  0000 C CNN
+F 2 "" H 2600 5600 50  0001 C CNN
+F 3 "" H 2600 5600 50  0001 C CNN
+	1    2600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61A88C21
+P 1500 5700
+AR Path="/619EC50E/61A88C21" Ref="C?"  Part="1" 
+AR Path="/61A4DD40/61A88C21" Ref="C?"  Part="1" 
+AR Path="/619897D7/61A88C21" Ref="C?"  Part="1" 
+AR Path="/61A62B74/61A88C21" Ref="C8"  Part="1" 
+F 0 "C8" H 1615 5746 50  0000 L CNN
+F 1 "10n" H 1615 5655 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1538 5550 50  0001 C CNN
+F 3 "~" H 1500 5700 50  0001 C CNN
+	1    1500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A88C27
+P 1500 5850
+AR Path="/619EC50E/61A88C27" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88C27" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88C27" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88C27" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 1500 5600 50  0001 C CNN
+F 1 "GND" H 1505 5677 50  0000 C CNN
+F 2 "" H 1500 5850 50  0001 C CNN
+F 3 "" H 1500 5850 50  0001 C CNN
+	1    1500 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5400 2000 5400
+Wire Wire Line
+	2100 5200 1500 5200
+Wire Wire Line
+	1500 5200 1500 5550
+$Comp
+L power:+12V #PWR?
+U 1 1 61A88C30
+P 2600 4700
+AR Path="/619EC50E/61A88C30" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88C30" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88C30" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88C30" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 2600 4550 50  0001 C CNN
+F 1 "+12V" H 2615 4873 50  0000 C CNN
+F 2 "" H 2600 4700 50  0001 C CNN
+F 3 "" H 2600 4700 50  0001 C CNN
+	1    2600 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4700 2600 4800
+Wire Wire Line
+	5150 2050 4950 2050
+Connection ~ 4950 2050
+Wire Wire Line
+	4950 2050 4950 2150
+Wire Wire Line
+	2000 5000 2100 5000
+$Comp
+L Device:R_POT RV_RELEASE?
+U 1 1 61A88C3B
+P 5550 4050
+AR Path="/619EC50E/61A88C3B" Ref="RV_RELEASE?"  Part="1" 
+AR Path="/61A4DD40/61A88C3B" Ref="RV_RELEASE?"  Part="1" 
+AR Path="/619897D7/61A88C3B" Ref="RV_RELEASE?"  Part="1" 
+AR Path="/61A62B74/61A88C3B" Ref="RV_RELEASE2"  Part="1" 
+F 0 "RV_RELEASE2" V 5343 4050 50  0000 C CNN
+F 1 "1M" V 5434 4050 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x03_Vertical" H 5550 4050 50  0001 C CNN
+F 3 "~" H 5550 4050 50  0001 C CNN
+	1    5550 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61A88C41
+P 5950 4050
+AR Path="/619EC50E/61A88C41" Ref="D?"  Part="1" 
+AR Path="/61A4DD40/61A88C41" Ref="D?"  Part="1" 
+AR Path="/619897D7/61A88C41" Ref="D?"  Part="1" 
+AR Path="/61A62B74/61A88C41" Ref="D8"  Part="1" 
+F 0 "D8" H 5950 4267 50  0000 C CNN
+F 1 "1N4148" H 5950 4176 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 5950 4050 50  0001 C CNN
+F 3 "~" H 5950 4050 50  0001 C CNN
+	1    5950 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4050 5750 4050
+Wire Wire Line
+	5750 4200 5750 4050
+Wire Wire Line
+	5550 4200 5750 4200
+Connection ~ 5750 4050
+Wire Wire Line
+	5750 4050 5700 4050
+$Comp
+L Device:R R?
+U 1 1 61A88C4C
+P 5150 4050
+AR Path="/619EC50E/61A88C4C" Ref="R?"  Part="1" 
+AR Path="/61A4DD40/61A88C4C" Ref="R?"  Part="1" 
+AR Path="/619897D7/61A88C4C" Ref="R?"  Part="1" 
+AR Path="/61A62B74/61A88C4C" Ref="R18"  Part="1" 
+F 0 "R18" V 4943 4050 50  0000 C CNN
+F 1 "100" V 5034 4050 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 5080 4050 50  0001 C CNN
+F 3 "~" H 5150 4050 50  0001 C CNN
+	1    5150 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61A88C52
+P 6250 6650
+AR Path="/619EC50E/61A88C52" Ref="C?"  Part="1" 
+AR Path="/61A4DD40/61A88C52" Ref="C?"  Part="1" 
+AR Path="/619897D7/61A88C52" Ref="C?"  Part="1" 
+AR Path="/61A62B74/61A88C52" Ref="C10"  Part="1" 
+F 0 "C10" H 6368 6696 50  0000 L CNN
+F 1 "2.2u" H 6368 6605 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Foil_P5.48mm" H 6288 6500 50  0001 C CNN
+F 3 "~" H 6250 6650 50  0001 C CNN
+	1    6250 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A88C58
+P 6250 6800
+AR Path="/619EC50E/61A88C58" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88C58" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88C58" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88C58" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 6250 6550 50  0001 C CNN
+F 1 "GND" H 6255 6627 50  0000 C CNN
+F 2 "" H 6250 6800 50  0001 C CNN
+F 3 "" H 6250 6800 50  0001 C CNN
+	1    6250 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61A88C5E
+P 5950 4600
+AR Path="/619EC50E/61A88C5E" Ref="D?"  Part="1" 
+AR Path="/61A4DD40/61A88C5E" Ref="D?"  Part="1" 
+AR Path="/619897D7/61A88C5E" Ref="D?"  Part="1" 
+AR Path="/61A62B74/61A88C5E" Ref="D9"  Part="1" 
+F 0 "D9" H 5950 4817 50  0000 C CNN
+F 1 "1N4148" H 5950 4726 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 5950 4600 50  0001 C CNN
+F 3 "~" H 5950 4600 50  0001 C CNN
+	1    5950 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61A88C64
+P 5150 4600
+AR Path="/619EC50E/61A88C64" Ref="R?"  Part="1" 
+AR Path="/61A4DD40/61A88C64" Ref="R?"  Part="1" 
+AR Path="/619897D7/61A88C64" Ref="R?"  Part="1" 
+AR Path="/61A62B74/61A88C64" Ref="R19"  Part="1" 
+F 0 "R19" V 4943 4600 50  0000 C CNN
+F 1 "470" V 5034 4600 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 5080 4600 50  0001 C CNN
+F 3 "~" H 5150 4600 50  0001 C CNN
+	1    5150 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61A88C6A
+P 5950 5800
+AR Path="/619EC50E/61A88C6A" Ref="D?"  Part="1" 
+AR Path="/61A4DD40/61A88C6A" Ref="D?"  Part="1" 
+AR Path="/619897D7/61A88C6A" Ref="D?"  Part="1" 
+AR Path="/61A62B74/61A88C6A" Ref="D10"  Part="1" 
+F 0 "D10" H 5950 6017 50  0000 C CNN
+F 1 "1N4148" H 5950 5926 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 5950 5800 50  0001 C CNN
+F 3 "~" H 5950 5800 50  0001 C CNN
+	1    5950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61A88C70
+P 5150 5800
+AR Path="/619EC50E/61A88C70" Ref="R?"  Part="1" 
+AR Path="/61A4DD40/61A88C70" Ref="R?"  Part="1" 
+AR Path="/619897D7/61A88C70" Ref="R?"  Part="1" 
+AR Path="/61A62B74/61A88C70" Ref="R20"  Part="1" 
+F 0 "R20" V 4943 5800 50  0000 C CNN
+F 1 "100" V 5034 5800 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 5080 5800 50  0001 C CNN
+F 3 "~" H 5150 5800 50  0001 C CNN
+	1    5150 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 4050 6250 4050
+Wire Wire Line
+	6100 4600 6250 4600
+Wire Wire Line
+	6250 4050 6250 4600
+$Comp
+L Device:R_POT RV_SUSTAIN?
+U 1 1 61A88C79
+P 3850 5700
+AR Path="/619EC50E/61A88C79" Ref="RV_SUSTAIN?"  Part="1" 
+AR Path="/61A4DD40/61A88C79" Ref="RV_SUSTAIN?"  Part="1" 
+AR Path="/619897D7/61A88C79" Ref="RV_SUSTAIN?"  Part="1" 
+AR Path="/61A62B74/61A88C79" Ref="RV_SUSTAIN2"  Part="1" 
+F 0 "RV_SUSTAIN2" H 3780 5746 50  0000 R CNN
+F 1 "10k" H 3780 5655 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x03_Vertical" H 3850 5700 50  0001 C CNN
+F 3 "~" H 3850 5700 50  0001 C CNN
+	1    3850 5700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61A88C7F
+P 3850 5300
+AR Path="/619EC50E/61A88C7F" Ref="R?"  Part="1" 
+AR Path="/61A4DD40/61A88C7F" Ref="R?"  Part="1" 
+AR Path="/619897D7/61A88C7F" Ref="R?"  Part="1" 
+AR Path="/61A62B74/61A88C7F" Ref="R15"  Part="1" 
+F 0 "R15" H 3920 5346 50  0000 L CNN
+F 1 "4.7k" H 3920 5255 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 3780 5300 50  0001 C CNN
+F 3 "~" H 3850 5300 50  0001 C CNN
+	1    3850 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 61A88C85
+P 3850 5150
+AR Path="/619EC50E/61A88C85" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88C85" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88C85" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88C85" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 3850 5000 50  0001 C CNN
+F 1 "+12V" H 3865 5323 50  0000 C CNN
+F 2 "" H 3850 5150 50  0001 C CNN
+F 3 "" H 3850 5150 50  0001 C CNN
+	1    3850 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 4600
+Wire Wire Line
+	6100 5800 6250 5800
+Connection ~ 6250 5800
+Wire Wire Line
+	7500 4400 7300 4400
+Wire Wire Line
+	7300 4400 7300 4000
+Wire Wire Line
+	7300 4000 8300 4000
+Wire Wire Line
+	8300 4000 8300 4500
+Wire Wire Line
+	8300 4500 8100 4500
+$Comp
+L power:+12V #PWR?
+U 1 1 61A88C94
+P 6350 1300
+AR Path="/619EC50E/61A88C94" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88C94" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88C94" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88C94" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 6350 1150 50  0001 C CNN
+F 1 "+12V" H 6365 1473 50  0000 C CNN
+F 2 "" H 6350 1300 50  0001 C CNN
+F 3 "" H 6350 1300 50  0001 C CNN
+	1    6350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 61A88C9A
+P 6350 2200
+AR Path="/619EC50E/61A88C9A" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88C9A" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88C9A" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88C9A" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 6350 2300 50  0001 C CNN
+F 1 "-12V" H 6365 2373 50  0000 C CNN
+F 2 "" H 6350 2200 50  0001 C CNN
+F 3 "" H 6350 2200 50  0001 C CNN
+	1    6350 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 4800 8650 4800
+$Comp
+L power:GND #PWR?
+U 1 1 61A88CA2
+P 8000 1650
+AR Path="/619EC50E/61A88CA2" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88CA2" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88CA2" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88CA2" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 8000 1400 50  0001 C CNN
+F 1 "GND" H 8005 1477 50  0000 C CNN
+F 2 "" H 8000 1650 50  0001 C CNN
+F 3 "" H 8000 1650 50  0001 C CNN
+	1    8000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2550 2300 2900
+Connection ~ 2300 2900
+Wire Wire Line
+	2300 2900 3500 2900
+$Comp
+L Device:C C?
+U 1 1 61A88CAB
+P 6800 1550
+AR Path="/619EC50E/61A88CAB" Ref="C?"  Part="1" 
+AR Path="/61A4DD40/61A88CAB" Ref="C?"  Part="1" 
+AR Path="/619897D7/61A88CAB" Ref="C?"  Part="1" 
+AR Path="/61A62B74/61A88CAB" Ref="C11"  Part="1" 
+F 0 "C11" H 6915 1596 50  0000 L CNN
+F 1 "100n" H 6915 1505 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6838 1400 50  0001 C CNN
+F 3 "~" H 6800 1550 50  0001 C CNN
+	1    6800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61A88CB1
+P 6800 1950
+AR Path="/619EC50E/61A88CB1" Ref="C?"  Part="1" 
+AR Path="/61A4DD40/61A88CB1" Ref="C?"  Part="1" 
+AR Path="/619897D7/61A88CB1" Ref="C?"  Part="1" 
+AR Path="/61A62B74/61A88CB1" Ref="C12"  Part="1" 
+F 0 "C12" H 6915 1996 50  0000 L CNN
+F 1 "100n" H 6915 1905 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6838 1800 50  0001 C CNN
+F 3 "~" H 6800 1950 50  0001 C CNN
+	1    6800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A88CB7
+P 6350 1750
+AR Path="/619EC50E/61A88CB7" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88CB7" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88CB7" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88CB7" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 6350 1500 50  0001 C CNN
+F 1 "GND" H 6355 1577 50  0000 C CNN
+F 2 "" H 6350 1750 50  0001 C CNN
+F 3 "" H 6350 1750 50  0001 C CNN
+	1    6350 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1300 6350 1350
+Wire Wire Line
+	6350 1350 6800 1350
+Wire Wire Line
+	7350 1350 7350 1450
+Wire Wire Line
+	6800 1400 6800 1350
+Connection ~ 6800 1350
+Wire Wire Line
+	6800 1350 7350 1350
+Wire Wire Line
+	6800 2100 6800 2150
+Wire Wire Line
+	6800 2150 6350 2150
+Wire Wire Line
+	6350 2150 6350 2200
+Wire Wire Line
+	6800 2150 7350 2150
+Wire Wire Line
+	7350 2150 7350 2050
+Connection ~ 6800 2150
+$Comp
+L Device:R_POT RV_ATTACT?
+U 1 1 61A88CC9
+P 5550 4600
+AR Path="/619EC50E/61A88CC9" Ref="RV_ATTACT?"  Part="1" 
+AR Path="/61A4DD40/61A88CC9" Ref="RV_ATTACT?"  Part="1" 
+AR Path="/619897D7/61A88CC9" Ref="RV_ATTACT?"  Part="1" 
+AR Path="/61A62B74/61A88CC9" Ref="RV_ATTACT2"  Part="1" 
+F 0 "RV_ATTACT2" V 5343 4600 50  0000 C CNN
+F 1 "1M" V 5434 4600 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x03_Vertical" H 5550 4600 50  0001 C CNN
+F 3 "~" H 5550 4600 50  0001 C CNN
+	1    5550 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV_DECAY?
+U 1 1 61A88CCF
+P 5550 5800
+AR Path="/619EC50E/61A88CCF" Ref="RV_DECAY?"  Part="1" 
+AR Path="/61A4DD40/61A88CCF" Ref="RV_DECAY?"  Part="1" 
+AR Path="/619897D7/61A88CCF" Ref="RV_DECAY?"  Part="1" 
+AR Path="/61A62B74/61A88CCF" Ref="RV_DECAY2"  Part="1" 
+F 0 "RV_DECAY2" V 5343 5800 50  0000 C CNN
+F 1 "1M" V 5434 5800 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x03_Vertical" H 5550 5800 50  0001 C CNN
+F 3 "~" H 5550 5800 50  0001 C CNN
+	1    5550 5800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5700 4600 5750 4600
+Wire Wire Line
+	5550 4450 5750 4450
+Wire Wire Line
+	5750 4450 5750 4600
+Connection ~ 5750 4600
+Wire Wire Line
+	5750 4600 5800 4600
+Wire Wire Line
+	5800 5800 5750 5800
+Wire Wire Line
+	5300 5800 5400 5800
+$Comp
+L Amplifier_Operational:TL072 U?
+U 2 1 61A88CDC
+P 4550 5800
+AR Path="/619EC50E/61A88CDC" Ref="U?"  Part="2" 
+AR Path="/61A4DD40/61A88CDC" Ref="U?"  Part="2" 
+AR Path="/619897D7/61A88CDC" Ref="U?"  Part="2" 
+AR Path="/61A62B74/61A88CDC" Ref="U4"  Part="2" 
+F 0 "U4" H 4550 6167 50  0000 C CNN
+F 1 "TL072" H 4550 6076 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 4550 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4550 5800 50  0001 C CNN
+	2    4550 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5900 4100 5900
+Wire Wire Line
+	4100 5900 4100 6150
+Wire Wire Line
+	4100 6150 4900 6150
+Wire Wire Line
+	4900 6150 4900 5800
+Wire Wire Line
+	4900 5800 4850 5800
+Wire Wire Line
+	5000 5800 4900 5800
+Connection ~ 4900 5800
+Wire Wire Line
+	4250 5700 4000 5700
+Wire Wire Line
+	3850 5450 3850 5550
+Wire Wire Line
+	3500 5200 3500 5950
+Wire Wire Line
+	3500 5950 3850 5950
+Wire Wire Line
+	3850 5950 3850 5850
+Wire Wire Line
+	3100 5200 3500 5200
+Wire Wire Line
+	3100 5400 3300 5400
+Wire Wire Line
+	3300 5400 3300 6350
+Wire Wire Line
+	3300 6350 6250 6350
+Wire Wire Line
+	6250 5800 6250 6350
+Connection ~ 6250 6350
+Wire Wire Line
+	6250 6350 6250 6500
+Wire Wire Line
+	3100 5000 3500 5000
+Wire Wire Line
+	3500 5000 3500 4600
+Wire Wire Line
+	5400 4600 5300 4600
+Wire Wire Line
+	5000 4600 3500 4600
+Wire Wire Line
+	5300 4050 5400 4050
+Wire Wire Line
+	5000 4050 4900 4050
+Wire Wire Line
+	5550 5950 5750 5950
+Wire Wire Line
+	5750 5950 5750 5800
+Connection ~ 5750 5800
+Wire Wire Line
+	5750 5800 5700 5800
+Wire Wire Line
+	8000 1450 8100 1450
+Wire Wire Line
+	8000 1650 8000 1550
+Wire Wire Line
+	8000 1550 8100 1550
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61A88D02
+P 8300 1450
+AR Path="/619EC50E/61A88D02" Ref="J?"  Part="1" 
+AR Path="/61A4DD40/61A88D02" Ref="J?"  Part="1" 
+AR Path="/619897D7/61A88D02" Ref="J?"  Part="1" 
+AR Path="/61A62B74/61A88D02" Ref="J5"  Part="1" 
+F 0 "J5" H 8272 1332 50  0000 R CNN
+F 1 "Out" H 8272 1423 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x02_Vertical" H 8300 1450 50  0001 C CNN
+F 3 "~" H 8300 1450 50  0001 C CNN
+	1    8300 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2350 4650 2350
+Wire Wire Line
+	3500 2900 4150 2900
+Wire Wire Line
+	4150 2450 4150 2350
+Connection ~ 4150 2350
+Wire Wire Line
+	4150 2750 4150 2900
+Connection ~ 4150 2900
+Wire Wire Line
+	4150 2900 4950 2900
+Wire Wire Line
+	6800 1700 6800 1750
+Wire Wire Line
+	6350 1750 6800 1750
+Connection ~ 6800 1750
+Wire Wire Line
+	6800 1750 6800 1800
+Text Label 1400 2350 2    50   ~ 0
+GATE
+Text Label 9100 1450 2    50   ~ 0
+GATE
+$Comp
+L power:GND #PWR?
+U 1 1 61A88D1C
+P 8500 4950
+AR Path="/619EC50E/61A88D1C" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88D1C" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88D1C" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88D1C" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 8500 4700 50  0001 C CNN
+F 1 "GND" H 8505 4777 50  0000 C CNN
+F 2 "" H 8500 4950 50  0001 C CNN
+F 3 "" H 8500 4950 50  0001 C CNN
+	1    8500 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4600 6250 5800
+Text Label 5150 1900 0    50   ~ 0
+RESET
+Text Label 5150 2050 0    50   ~ 0
+TRIGGER
+Text Label 8000 1450 2    50   ~ 0
+ADSR_OUT
+Text Label 4900 4050 2    50   ~ 0
+RESET
+Text Label 2000 5000 2    50   ~ 0
+TRIGGER
+Text Label 2000 5400 2    50   ~ 0
+RESET
+Text Label 8850 4800 0    50   ~ 0
+ADSR_OUT
+Text Notes 8850 4900 0    50   ~ 0
+0-8V
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61A88D2C
+P 9400 1450
+AR Path="/619EC50E/61A88D2C" Ref="J?"  Part="1" 
+AR Path="/61A4DD40/61A88D2C" Ref="J?"  Part="1" 
+AR Path="/619897D7/61A88D2C" Ref="J?"  Part="1" 
+AR Path="/61A62B74/61A88D2C" Ref="J6"  Part="1" 
+F 0 "J6" H 9372 1332 50  0000 R CNN
+F 1 "Gate In" H 9372 1423 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x02_Vertical" H 9400 1450 50  0001 C CNN
+F 3 "~" H 9400 1450 50  0001 C CNN
+	1    9400 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1450 9200 1450
+$Comp
+L power:GND #PWR?
+U 1 1 61A88D33
+P 9100 1650
+AR Path="/619EC50E/61A88D33" Ref="#PWR?"  Part="1" 
+AR Path="/61A4DD40/61A88D33" Ref="#PWR?"  Part="1" 
+AR Path="/619897D7/61A88D33" Ref="#PWR?"  Part="1" 
+AR Path="/61A62B74/61A88D33" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 9100 1400 50  0001 C CNN
+F 1 "GND" H 9105 1477 50  0000 C CNN
+F 2 "" H 9100 1650 50  0001 C CNN
+F 3 "" H 9100 1650 50  0001 C CNN
+	1    9100 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1550 9100 1550
+Wire Wire Line
+	9100 1550 9100 1650
+Text Notes 6400 6850 0    50   ~ 0
+Foil
+$Comp
+L Device:R_POT_TRIM RV_ADSR_LEVEL?
+U 1 1 61A88D15
+P 8500 4800
+AR Path="/619EC50E/61A88D15" Ref="RV_ADSR_LEVEL?"  Part="1" 
+AR Path="/61A4DD40/61A88D15" Ref="RV_ADSR_LEVEL?"  Part="1" 
+AR Path="/619897D7/61A88D15" Ref="RV_ADSR_LEVEL?"  Part="1" 
+AR Path="/61A62B74/61A88D15" Ref="RV_ADSR_LEVEL2"  Part="1" 
+F 0 "RV_ADSR_LEVEL2" H 8431 4846 50  0000 R CNN
+F 1 "1k" H 8431 4755 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:TrimPot_Vertical" H 8500 4800 50  0001 C CNN
+F 3 "~" H 8500 4800 50  0001 C CNN
+	1    8500 4800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8500 4650 8500 4500
+Wire Wire Line
+	8500 4500 8300 4500
+Connection ~ 8300 4500
+Wire Wire Line
+	6250 4600 7500 4600
+$EndSCHEMATC
