@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 2)
       (scaleselection 1)
-      (outputdirectory "Plots/"))
+      (outputdirectory "- Plots/"))
   )
 
   (net 0 "")
@@ -3142,7 +3142,7 @@
   (segment (start 120.777 89.789) (end 120.777 90.805) (width 0.8) (layer B.Cu) (net 49))
   (segment (start 122.3772 88.1888) (end 120.777 89.789) (width 0.8) (layer B.Cu) (net 49))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 616B4BEC) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 618692F2) (hatch edge 0.508)
     (connect_pads yes (clearance 0.6))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.61) (thermal_bridge_width 0.61))
