@@ -14,7 +14,7 @@ A1 is a fully analog semi-modular monosynth. I took the Minimoog as my main insp
 - All modules are designed and built on separate PCBs for reusability and experimenting
 
 ### What's in this repo?
-You can find all the kiCad files (schematics and PCB design) of the synth here.
+You can find all the **KiCad 5** files (schematics and PCB design) of the synth here.
 
 ---
 
