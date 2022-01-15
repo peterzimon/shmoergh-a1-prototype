@@ -2,6 +2,8 @@
 
 A1 is a fully analog semi-modular monosynth. I took the Minimoog as my main inspiration for its sound but of course the circuitry is nowhere comparable with it. The synth has a default hardwired patch inside, it has a couple of modulation sources and targets so we can consider it semi-modular. Everything is handmade by me at home. Most of the module circuits are based on very well-known schematics and a few of the circuits are original. 
 
+![a1](https://user-images.githubusercontent.com/353959/149623386-b24a9bb8-e4bf-4763-90b9-f67211097202.jpeg)
+
 ### Features
 - Fat AF analog sound, fun
 - Two voices with 3 waveshapes (saw, triangle, pulse) and additional noise and square suboscillator sound sources
